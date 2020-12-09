@@ -1,0 +1,92 @@
+html,body{
+    width:100%;
+   overflow-x: hidden;
+   color:#191A35;
+   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 18px; } h3 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 21px; } blockquote { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, 
+    sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+}
+#main{
+     width:100%;
+}
+#Titlecontainer{
+   float:left;
+     width:98.5%;
+     height:500px;
+     background-color:#E3E3E3;
+     display:flex;
+     margin-left:10px;
+     text-align: center;
+  
+}
+#Titlecontainer h1{
+   width:100%;
+   font-weight: lighter;
+   position: absolute;
+   top:20%;
+   font-family: novecento-sans, sans-serif;
+   font-style: normal;
+   font-size:34px;
+}
+#Titlecontainer p{
+   width:440px;
+   position: absolute;
+   top:35%;
+   left:35%;
+   font-size: 20px;
+   line-height: 1.5;
+}
+#midlecontent{
+    width:100%;
+    float:left;
+    display:flex;
+}
+#largebusinesses,#sems{
+
+    float:left;
+    width:48.8%;
+    height:600px;
+    background-color: #E6E6E6;
+    margin:10px 0px 10px 10px;
+    text-align: center;
+}
+#largebusinesses h1,#sems h1{
+    width:100%;
+    color:#191A35;
+    font-weight: lighter;
+    margin-top:120px;
+    
+}
+
+#largebusinesses p,#sems p{
+    width:65%;
+    margin-left:100px;
+    line-height: 1.5;
+}
+ 
+#box{
+    width:30%;
+    height:150px;
+    border: 1px solid black;
+    margin:40px  0px 20px 220px;
+    background-color:white;
+}
+#learnmore{
+    float:left;
+    padding:15px;
+    margin-left:260px;
+    margin-top:20px;
+    border:none;
+    background-color:#191A35;
+    color:white;
+    box-shadow: 2px 2px #888888;
+}
+#sems #learnmore{
+    float:left;
+    padding:15px;
+    margin-left:260px;
+    margin-top:20px;
+    border:none;
+    background-color:#2E31BE;
+    color:white;
+    box-shadow: 2px 2px #888888;
+}

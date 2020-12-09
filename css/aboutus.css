@@ -1,0 +1,119 @@
+html,body{
+    width:100%;
+   overflow-x: hidden;
+   color:#191A35;
+   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 18px; } h3 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 21px; } blockquote { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, 
+    sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+}
+#main{
+     width:100%;
+}
+#Titlecontainer{
+   float:left;
+     width:98.5%;
+    display:flex;
+    flex-flow: row wrap;
+     margin-left:30px;
+     margin-top:40px;
+ }
+#Titlecontainer h1{
+    float:left;
+   width:100%;
+   font-weight: lighter;
+   font-family: novecento-sans, sans-serif;
+   font-style: normal;
+   font-size:34px;
+
+}
+#titlecontainertext {
+    float:left;
+   width:500px;
+    line-height: 1.5;
+    margin:40px 20px 10px 0px;
+}
+#midlecontent{
+    width:100%;
+    height:700px;
+    float:left;
+    display:flex;
+    margin-top:60px;
+}
+#Loremipsum{
+
+    float:left;
+    width:48.8%;
+    height:100%;
+    background-color: #E6E6E6;
+    margin:10px 0px 10px 10px;
+    text-align: center;
+    
+}
+#harddrive{
+    float:left;
+    width:95%;
+    margin-top:60px;
+    
+}
+#harddrive img{
+   width:100%;
+  
+}
+#Loremipsum h1,#loremtext h1{
+    width:100%;
+    color:#191A35;
+    font-weight: lighter;
+    margin-top:60px;
+    
+}
+#lorem{
+    float:left;
+    width:48.8%;
+    height:100%;
+    margin:10px 0px 10px 10px;
+    text-align: center;
+   
+}
+
+#Loremipsum p{
+    width:65%;
+    margin-left:100px;
+    line-height: 1.5;
+}
+#loremtext{
+    float:left;
+    width:100%;
+    height:48.5%;
+    background-color: #E6E6E6;
+
+}
+#loremtext p {
+    float:left;
+      width:65%;
+     margin-left:100px;
+    line-height: 1.5;
+}  
+#contact{
+    float:left;
+    width:100%;
+    height:50%;
+    background-color: #191A35;
+    color:white;
+    
+    margin-top:10px;
+
+}
+#contacttext{
+    float:left;
+    width:350px;
+    height:100px;
+    margin-top:120px;
+    margin-left:150px;
+ 
+}
+#phone img{
+    width:30px;
+    float:left;
+    height:30px;
+    margin-left:20px;
+  
+}
